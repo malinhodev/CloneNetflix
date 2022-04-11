@@ -40,6 +40,42 @@ header nav a{
     margin-right: 10px;
 }
 
+.mobile{
+    display: none;
+}
+
+nav.mobile > i{
+	position: relative;
+	right: 8px;
+	cursor: pointer;
+	font-size: 35px;
+	color: var(--vermelho);
+}
+
+nav.mobile ul{
+	display: none;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 55px;
+	background: var(--vermelho);
+	list-style-type: none;   
+}
+
+nav.mobile li{
+	font-weight: lighter;
+	border-bottom: 1px solid white;
+	text-align: center;
+	padding:8px 0;
+}
+
+nav.mobile a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+
 
 header nav a:hover{
     color:#fff;
@@ -112,10 +148,20 @@ header nav a:hover{
 
 
 .carrosel-filmes{
-    margin-top:5px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.carrosel-filmes h2{
+    margin-bottom: 10px;
 }
 
 .item img:hover{
     transition: 1s;
 	transform:scale(1.2,1.2);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
 }
