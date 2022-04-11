@@ -1,6 +1,6 @@
 /****** scrolltop******/
 $(document).ready(function(){
-    var offset =250;
+    var offset =300;
     var duration = 500;
 
     $(window).scroll(function(){

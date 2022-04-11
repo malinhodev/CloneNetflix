@@ -161,6 +161,7 @@ header nav a:hover{
 	transform:scale(1.2,1.2);
 }
 .top{
+    display: none;
     z-index: 999;
     position: fixed;
     outline: none;
