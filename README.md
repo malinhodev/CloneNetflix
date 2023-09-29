@@ -1,5 +1,5 @@
 # Clone--Netflix-DIO.ME
-Projeto referente ao bootcamp Carrefour Web Developer
+Projeto referente ao bootcamp Carrefour Web Developer DIO.ME
 
 
 ## Foram acicionados:
